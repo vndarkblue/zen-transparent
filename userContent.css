@@ -1,0 +1,312 @@
+body,
+html {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Facebook */
+@-moz-document domain("facebook.com") {
+    .__fb-dark-mode {
+        --surface-background: #25272800 !important;
+        --primary-button-background: #0866ffaa !important;
+        --popover-background: #3b3c3eb2 !important;
+    }
+
+    body {
+        background-color: transparent !important;
+        background: transparent !important;
+    }
+
+    .x1ve1bff {
+        background-color: rgba(37, 29, 40, 0.8) !important;
+        backdrop-filter: blur(5px) !important;
+    }
+
+    /* post background */
+    .x1jx94hy {
+        background-color: rgba(37, 39, 40, 0) !important;
+        backdrop-filter: blur(5px) !important;
+    }
+
+    .xmjcpbm {
+        background-color: rgba(51, 51, 52, 0.5) !important;
+    }
+
+    .xt0b8zv {
+        background-color: transparent !important;
+        backdrop-filter: none !important;
+    }
+
+    .xal61yo {
+        background-color: transparent !important;
+    }
+
+    /* image viewer */
+    .x443n21 {
+        background-color: transparent !important;
+    }
+}
+
+/* youtube */
+@-moz-document domain("youtube.com") {
+    .style-scope .yt-chip-cloud-chip-renderer {
+        color: white;
+    }
+
+    html {
+        --yt-spec-raised-background: #21212145 !important;
+    }
+
+    yt-chip-cloud-chip-renderer[chip-style="STYLE_DEFAULT"][selected] #chip-container.yt-chip-cloud-chip-renderer,
+    yt-chip-cloud-chip-renderer[chip-style="STYLE_HOME_FILTER"][selected] #chip-container.yt-chip-cloud-chip-renderer {
+        background-color: #f1f1f185 !important;
+    }
+
+    .header.ytd-playlist-panel-renderer {
+        background-color: #21212170 !important;
+    }
+
+    tp-yt-paper-dialog.ytd-popup-container> :last-child {
+        margin-bottom: 0px !important;
+        padding-bottom: 24px !important;
+    }
+
+    .ytp-popup.ytp-contextmenu,
+    .ytd-popup-container {
+        background-color: rgba(17, 17, 17, 0.3) !important;
+    }
+
+    ytd-playlist-panel-renderer,
+    ytd-playlist-panel-renderer[use-color-palette][is-dark-theme] {
+        --yt-active-playlist-panel-background-color: rgba(27, 38, 23, 0.3) !important;
+    }
+
+    .action-container .style-scope .ytd-reel-player-overlay-renderer {
+        margin-right: 0 !important;
+    }
+    
+    @media (min-width: 600px) {
+        ytd-reel-player-overlay-renderer:not([is-watch-while-mode]):not([overlay-density="1"]):not([overlay-density="2"]) .action-container.ytd-reel-player-overlay-renderer {
+            margin-right: 0 !important;
+        }
+    }
+    
+    #masthead-container {
+        background: transparent !important;
+        backdrop-filter: blur(10px) !important;
+    }
+
+    #background {
+        background: rgba(36, 36, 36, 0.7) !important;
+    }
+
+    .ytSearchboxComponentInputBox {
+        background: rgba(20, 20, 20, 0.5) !important;
+    }
+
+    .ytSearchboxComponentSearchButton {
+        background: rgba(20, 20, 20, 0.7) !important;
+    }
+
+    yt-live-chat-renderer,
+    yt-live-chat-message-input-renderer {
+        background: transparent !important;
+    }
+
+    yt-live-chat-header-renderer,
+    yt-live-chat-ticker-renderer {
+        background-color: transparent !important;
+    }
+
+    .ytp-scrubber-button,
+    .ytp-swatch-background-color {
+        background-color: rgba(255, 165, 0, 0.75) !important;
+    }
+
+    #info-bar {
+        background: #000000ba !important;
+    }
+}
+
+/* Google */
+@-moz-document domain("google.com") {
+    :root {
+        --transparent-background: rgb(from var(--color-bg) r g b / 0.15) !important;
+        --xhUGwc: rgba(0, 0, 0, 0.2) !important;
+        --border-radius-lg: 20px !important;
+    }
+
+    .IiOSLb,
+    .rsGxI.Ww4FFb,
+    .Ww4FFb,
+    .dG2XIf {
+        background-color: rgba(0, 0, 0, 0.15) !important;
+    }
+}
+
+/* Google Translate */
+@-moz-document domain("translate.google.com"){
+    .U0xwnf::after {
+        background: transparent !important;
+    }
+    .ccvoYb{
+        background-color: transparent !important;
+    }
+    .X4DQ0::after, .GAyS9e{
+        background: transparent !important;
+    }
+    .zXU7Rb{
+        background-color: rgba(0,0,0,0.3) !important;
+    }
+    .Ose4Jf .VfPpkd-jY41G-V67aGc{
+        color: aliceblue !important;
+    }
+    .QcsUad{
+        background-color: transparent !important;
+    }
+    .er8xn, .ryNqvb, .jq25U, .ydsGXd, .VfPpkd-vQzf8d{
+        color: #fff !important;
+    }
+    .UdTY9, .dWI6ed, .ZTPlmc, .gJM46d, .TcXXXb{
+        color: #c9c9c9 !important;
+    }
+    .hX7wnb{
+        background-color: #f5f5f521 !important;
+    }
+    .NMm5M, .material-icons-extended, .VfPpkd-Bz112c-kBDsod{
+        fill: #fff !important;
+    }
+    .ySES5{
+        background-color: #00000050 !important;
+    }
+    #gb{
+        background-color: #00000022 !important;
+    }
+}
+
+/* osu! */
+@-moz-document domain("osu.ppy.sh"){
+    body{
+        /* --hsl-b2: var(--base-hue),10%,30%,0.3 !important; */
+        --hsl-b5: var(--base-hue),10%,15%,0.5 !important;
+    }
+    .user-home{
+        background: #24222a20 !important;
+    }
+    .user-home__right-sidebar, .news-post-preview__body, .user-home__news-posts-group{
+        background-color: #24222a30 !important;
+    }
+    .header-v4__bg-container{
+        background-color: transparent !important;
+    }
+    .header-v4__bg::before, .header-v4__bg{
+        background-image: none !important;
+    }
+    .page-extra{
+        background-color: hsla(336, 9.8%, 20%, 0.1) !important;
+    }
+    .simple-menu{
+        background-color: hsla(336, 9.8%, 10%, 0.5) !important;
+    }
+    .profile-info, .profile-detail, .profile-detail-bar, .profile-links{
+        background-color: transparent !important;
+    }
+    .play-detail{
+        --bg-main: hsl(var(--hsl-b2),0.3) !important;
+        --bg: hsl(var(--hsl-b3),0.2) !important;
+    }
+    .play-detail--active, .play-detail:hover{
+        --bg-main: hsl(var(--hsl-b2),0.75) !important;
+        --bg: hsl(var(--hsl-b3),0.5) !important;
+    }
+    .play-detail__pp::before{
+        background-color: hsl(var(--hsl-b2),0.2) !important;
+    }
+    .play-detail__pp::before:hover{
+        background-color: hsl(var(--hsl-b2),0.75) !important;
+    }
+    .page-extra__recent-medals-box, .beatmap-playcount{
+        background-color: transparent !important;
+    }
+    .beatmap-playcount__detail{
+        margin-left: 0 !important;
+        background-color: hsl(var(--hsl-b3),0.5) !important;
+    }
+    .page-mode{
+        background-color: hsla(330, 10.5%, 14.9%, 0.5) !important;
+        backdrop-filter: blur(5px) !important;
+    }
+}
+
+/* HDU */
+@-moz-document domain("sinhvien.hdu.edu.vn"){
+    .box-df{
+        background-color: rgba(0,0,0,0.2) !important;
+        border-radius: 10px !important;
+    }
+    .table-striped > tbody > tr:nth-of-type(2n+1){
+        background-color: transparent !important;
+    }
+    .box-menu .col-xs-6:nth-child(2) .item-box-menu{
+        background: rgba(224, 251, 255,0.2) !important;
+    }
+    .box-menu .col-xs-6:nth-child(3) .item-box-menu{
+        background: rgba(255,242,212,0.2) !important;
+    }
+    .fl-table thead{
+        background: rgba(243, 247, 249,0.2) !important;
+    }
+    .fl-table tbody tr td:first-child{
+        background: rgba(255, 255, 206,0.2) !important;
+        color: #fff !important;
+    }
+    td{
+        color: #fff !important;
+    }
+    .row-head{
+        color: #1da1f2 !important;
+    }
+    .table-custom thead{
+        background: rgba(243, 247, 249,0.1) !important;
+    }
+    .table-custom tbody .row-head{
+        background: rgba(245,245,245,0.3) !important;
+    }
+}
+
+/* Twitter */
+@-moz-document domain("x.com"){
+    .r-kemksi{
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+    .r-5zmot{
+        background-color: transparent !important;
+    }
+}
+
+@-moz-document domain("techrum.vn") {
+    html {
+        background-color: transparent !important;
+    }
+
+    .p-header {
+        background: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .block--messages .message,
+    .block--messages .block-row {
+        color: #fff !important;
+        background: rgba(255, 255, 255, 0) !important;
+    }
+}
+
+@-moz-document domain("w3schools.com") {
+    body {
+        background-color: transparent !important;
+    }
+
+    .panel {
+        background-color: transparent !important;
+    }
+}
+
