@@ -21,6 +21,10 @@ html {
         background-color: rgba(37, 29, 40, 0.8) !important;
         backdrop-filter: blur(5px) !important;
     }
+    
+    .x1qjc9v5{
+        background-color: #00000000 !important;
+    }
 
     /* post background */
     .x1jx94hy {
@@ -55,6 +59,7 @@ html {
 
     html {
         --yt-spec-raised-background: #21212145 !important;
+        --yt-live-chat-vem-background-color: #4848485e !important;
     }
 
     yt-chip-cloud-chip-renderer[chip-style="STYLE_DEFAULT"][selected] #chip-container.yt-chip-cloud-chip-renderer,
@@ -126,6 +131,10 @@ html {
     #info-bar {
         background: #000000ba !important;
     }
+
+    ytd-watch-flexy[full-bleed-player] #full-bleed-container.ytd-watch-flexy{
+        background: transparent !important;
+    }
 }
 
 /* Google */
@@ -141,6 +150,9 @@ html {
     .Ww4FFb,
     .dG2XIf {
         background-color: rgba(0, 0, 0, 0.15) !important;
+    }
+    .P2c8Dd, .B678Hb{
+        background-color: transparent !important;
     }
 }
 
@@ -282,6 +294,16 @@ html {
     .r-5zmot{
         background-color: transparent !important;
     }
+    .r-11yh6sk{
+        background-color: #0000001f !important;
+        backdrop-filter: blur(2px) !important;
+    }
+    .r-184en5c{
+        background-color: transparent !important;
+    }
+    .css-175oi2r.r-1pi2tsx.r-13qz1uu, .css-175oi2r.r-sdzlij.r-1udh08x.r-633pao.r-45ll9u.r-u8s1d.r-1v2oles.r-176fswd{
+        background-color: #0000 !important;
+    }
 }
 
 @-moz-document domain("techrum.vn") {
@@ -310,3 +332,95 @@ html {
     }
 }
 
+@-moz-document domain("nhentai.net") {
+    html.theme-black.reader #image-container img {
+        background-color: transparent !important;
+    }
+}
+
+@-moz-document domain("mangaplus.shueisha.co.jp") {
+    .zao-surface, .Viewer-module_wrapper_11OpA {
+        background-color: transparent !important;
+    }
+}
+
+@-moz-document domain("ln.hako.vn"), domain("docln.sbs"){
+    #mainpart, #mainpart.at-index{
+        background-color: transparent !important;
+    }
+    .index-background, .page-top-group.at-index .index-background{
+        background-color: transparent !important;
+    }
+    .basic-section, .board-list, .board_categ-list, .detail-list, .feature-section, .index-top_notification, .mail-page .mail-detail-list, .modal-content, .page-breadcrumb, .private-tabs, .profile-feature, .series-users, .showcase-item, .sub-index-style{
+        background-color: #1f1f1f60 !important;
+        border-color: #1f1f1f70 !important;
+        border-radius: 14px !important;
+    }
+    ul.list-chapters li:nth-child(2n){
+        background-color: #2525257d !important;
+    }
+    #licensed-list header.section-title, #tba-list header.section-title, .basic-section .sect-header, .detail-list header.section-title, .modal-header, .private-tabs header{
+        background-color: #2a2a2a70 !important;
+    }
+    :is(.dark .dark\:\!bg-zinc-800){
+        background-color: rgba(39, 39, 42, 0.5) !important;
+    }
+    .summary-more .more-state{
+        right: 0px !important;
+    }
+    .bottom-part{
+        padding-bottom: 0px !important;
+    }
+    .see_more{
+        left: 15px !important;
+    }
+    .col-12 .col-md-2{
+        padding-top: 3px !important;
+    }
+}
+
+@-moz-document domain("shopee.vn"){
+    body{
+        color: #fff !important;
+    }
+    h2{
+        color: #bdbdbd !important;
+    }
+    .card, .pbSZkp{
+        background: #fff3 !important;
+    }
+    .page-product__detail, .page-product__hot-sales, .page-product__info, .page-product__ratings, .page-product__recycle, .page-product__shop, .page-product__shop-voucher{
+        background: #fff3 !important;
+    }
+    .mini-vouchers__mask{
+        background-color: transparent !important;
+    }
+    .theme--ofs .o3ut9x{
+        color: #ff919f !important;
+    }
+    .IFdRIb{
+        background-color: transparent !important;
+    }
+    .sApkZm{
+        background-color: #ffffff9c !important;
+    }
+    .product-rating-overview{
+        background-color: #fffbf870 !important;
+    }
+    .TQTPT9{
+        background-color: #f5f5f560 !important;
+    }
+    .wV4oFQ{
+        background: linear-gradient(to right, rgba(238, 77, 45, 0.45), rgba(255, 115, 55, 0.64)) !important;
+    }
+    .OaFP0p{
+        color: #000 !important;
+    }
+    .vOrlgh, .x1i_He, .aleSBU{
+        color: #e3e3e3 !important;
+    }
+    .VJOnTD{
+        color: #fff !important;
+    }
+
+}
